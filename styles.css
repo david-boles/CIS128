@@ -1,0 +1,11 @@
+body {
+    margin: 50px 15vw 50px 15vw;
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
