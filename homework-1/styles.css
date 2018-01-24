@@ -1,0 +1,22 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    float: left;
+    max-width: 30vw;
+    max-height: 50vh;
+    margin: 0 10px;
+}
+
+body {
+    margin: 50px 15vw 50px 15vw;
+    /*font-family: 'Noto', serif;*/
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
