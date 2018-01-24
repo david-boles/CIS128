@@ -1,7 +1,10 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+body {
+    margin: 50px 15vw 50px 15vw;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 img {
@@ -11,12 +14,13 @@ img {
     margin: 0 10px;
 }
 
-body {
-    margin: 50px 15vw 50px 15vw;
-    /*font-family: 'Noto', serif;*/
-}
 
-body {
-    font-size: 100%;
-    font-family: 'Noto Sans', sans-serif;
+
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
