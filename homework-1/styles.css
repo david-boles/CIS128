@@ -16,3 +16,7 @@ img {
     clear: both;
     display: table;
 }
+
+h1, h2 {
+    text-align: center;
+}
