@@ -9,6 +9,7 @@ img {
     max-width: 30vw;
     max-height: 50vh;
     margin: 0 10px;
+    border-style: groove;
 }
 
 .clearfix::after {

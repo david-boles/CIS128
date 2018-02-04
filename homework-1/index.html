@@ -10,17 +10,21 @@
   <meta name="description" content="My submission for the first assignment of CSM's CIS 128. This page contains information about myself and the class.">
   <meta name="author" content="David Boles">
 
-  <link rel="stylesheet" href="styles.css?v=0.1">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+  <link rel="stylesheet" href="styles.css?v=0.1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
+  <script src="scripts.js" type="text/javascript"></script>
   
 </head>
 
 <body>
-  <h1>CIS 128 - Introduction to Mobile Web Apps</h1>
+  <h1 id="main-header">CIS 128 - Introduction to Mobile Web Apps</h1>
   <h2>Homework 1</h2>
 
   <div class="clearfix">
-    <img src="me.jpg" alt="A picture of me."/>
+    <img id="image" src="me.jpg" alt="A picture of me."/>
     <p>
       Hi! My name is David Boles. I'm currently a senior at <a href="https://www.designtechhighschool.org/">Design Tech High School</a>. I enjoy interdisciplinary engineering, and as such have had a lot of fun in our <a href="https://www.team5940.org/">FRC robotics team</a>. I also have fun thinking about philosophy and doing ceramics, both of which I've gotten to explore through community college classes. Not sure what else to say!
     </p>
@@ -45,5 +49,6 @@
     <li><a href="https://www.khanacademy.org/computing/computer-programming" target="_blank">Khan Academy</a> - Classes for various programming languages including HTML, CSS, and Javascript.</li>
   </ul>
 
+  <button id="animate">Start animation!</button>
 </body>
 </html>
