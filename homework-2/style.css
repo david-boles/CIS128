@@ -114,6 +114,25 @@ div#footer{
 	box-sizing: border-box;
 	width:100%;
 }
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+#footer-globe {
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .float-left{
 	float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
 	margin:0  10px 10px 0;
