@@ -16,7 +16,7 @@
   
   <script src="scripts.js"></script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj-JgFd7PRKscEHFdolNUAtotRRiM6jHo&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj-JgFd7PRKscEHFdolNUAtotRRiM6jHo&callback=googleLoaded">
   </script>
 </head>
 
@@ -28,12 +28,12 @@
     Please wait while your location is retrieved...
   </p>
   <p id='location_info' class='hide_on_init'>
-    You are currently located at <span id='latitude'></span> degrees of latitude and <span id='longitude'></span> degrees of longitude.
+    You are currently located at <span id='latitude'></span>N, <span id='longitude'></span>W.
   </p>
   <p id='error_message' class='hide_on_init'>
-    Retriving your location failed! Please refresh to try again.
+    An error ocurred while retrieving your location. Please refresh to try again.
   </p>
 
-  <div id="map"></div>
+  <div id="map" class='hide_on_init'></div>
 </body>
 </html>
