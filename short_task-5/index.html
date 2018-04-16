@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Short Task 5</title>
+  <meta name="description" content="My submission for Short Task 5 for CSM's CIS 128.">
+  <meta name="author" content="David Boles">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+  <link rel="stylesheet" href="../styles.css?v=1">
+  <link rel="stylesheet" href="./styles.css?v=1">
+  
+  <script src="scripts.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj-JgFd7PRKscEHFdolNUAtotRRiM6jHo&callback=initMap">
+  </script>
+</head>
+
+<body>
+  <h1 id="main-header">CIS 128 - Introduction to Mobile Web Apps</h1>
+  <h2>Short Task 5</h2>
+  <h3>How To Find The Location Of A User Using HTML5 Geolocation</h3>
+  <p id='working_message'>
+    Please wait while your location is retrieved...
+  </p>
+  <p id='location_info' class='hide_on_init'>
+    You are currently located at <span id='latitude'></span> degrees of latitude and <span id='longitude'></span> degrees of longitude.
+  </p>
+  <p id='error_message' class='hide_on_init'>
+    Retriving your location failed! Please refresh to try again.
+  </p>
+
+  <div id="map"></div>
+</body>
+</html>
