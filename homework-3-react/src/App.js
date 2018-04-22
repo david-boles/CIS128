@@ -36,15 +36,20 @@ class App extends Component {
 
   renderHome() {
     return (
-      <Typography>Welcome to the home page! You can go to our other pages by opening the navigation drawer.</Typography>
+      <React.Fragment>
+        <Typography variant='title' gutterBottom={true}>Home</Typography>
+        <Typography>Welcome to the home page! You can go to our other pages by clicking on the buttons in the navigation bar!</Typography>
+      </React.Fragment>
     );
   }
 
   renderProducts() {
     return (
+      <React.Fragment>
+        <Typography variant='title' gutterBottom={true}>Products</Typography>
         <ExpansionPanel style={{backgroundColor: '#3f51b5'}}>
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon style={{color: '#fff'}} />}>
-            <Typography style={{color: '#fff'}}>All our Toyz!</Typography>
+            <Typography style={{color: '#fff'}}>See all our toyz!</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails style={{display: 'block'}}>
             
@@ -114,18 +119,23 @@ class App extends Component {
 
           </ExpansionPanelDetails>
         </ExpansionPanel>
+      </React.Fragment>
     );
   }
 
   renderLocation() {
     return (
-      <Typography>When we open our store, we will let you know our location here even with directions from your place to it!!!</Typography>
+      <React.Fragment>
+        <Typography variant='title' gutterBottom={true}>Location</Typography>
+        <Typography>When we open our store, we will let you know our location here even with directions from your place to it!!!</Typography>
+      </React.Fragment>
     );
   }
 
   renderContactUs() {
     return (
       <React.Fragment>
+        <Typography variant='title' gutterBottom={true}>Contact Us</Typography>
         <List>
           <ListItem style={{paddingLeft: 0}}>
             <Avatar>
