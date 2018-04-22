@@ -2,6 +2,7 @@
   "name": "homework-3-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://https://cis128.cyberdro.me/homework-3/",
   "dependencies": {
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
