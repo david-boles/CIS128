@@ -11,7 +11,6 @@ import List, { ListItem, ListItemText } from 'material-ui/List';
 import Typography from 'material-ui/Typography';
 import React, { Component } from 'react';
 import MainHeader from './MainHeader';
-import './styles.css';
 
 class App extends Component {
   render() {
