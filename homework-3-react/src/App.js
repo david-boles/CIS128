@@ -54,7 +54,7 @@ class App extends Component {
                 <Typography>Bike</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails style={{display: 'block', textAlign: 'center'}}>
-                <img src='/images/toy1.jpg' alt='mini bike' style={{width: '100%', maxWidth: '400px'}}/>
+                <img src='//cis128.cyberdro.me/homework-3/images/toy1.jpg' alt='mini bike' style={{width: '100%', maxWidth: '400px'}}/>
                 <br/>
                 <Typography>
                   Get ready to put the pedal to the injection molded plastic!
@@ -66,7 +66,7 @@ class App extends Component {
                 <Typography>Rubber Duck</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails style={{display: 'block', textAlign: 'center'}}>
-                <img src='/images/toy2.jpg' alt='rubber ducky' style={{width: '100%', maxWidth: '400px'}}/>
+                <img src='//cis128.cyberdro.me/homework-3/images/toy2.jpg' alt='rubber ducky' style={{width: '100%', maxWidth: '400px'}}/>
                 <br/>
                 <Typography>
                   Rubber ducky, you're the one! You make bath time so much fun!
@@ -79,7 +79,7 @@ class App extends Component {
                 <Typography>LEGO Millenium Falcon</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails style={{display: 'block', textAlign: 'center'}}>
-                <img src='/images/toy3.png' alt='millenium falcon' style={{width: '100%', maxWidth: '400px'}}/>
+                <img src='//cis128.cyberdro.me/homework-3/images/toy3.png' alt='millenium falcon' style={{width: '100%', maxWidth: '400px'}}/>
                 <br/>
                 <Typography>
                   Vroom vrrrooooooom!!!!
@@ -92,7 +92,7 @@ class App extends Component {
                 <Typography>Snap Circuits</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails style={{display: 'block', textAlign: 'center'}}>
-                <img src='/images/toy4.jpg' alt='snap circuits' style={{width: '100%', maxWidth: '400px'}}/>
+                <img src='//cis128.cyberdro.me/homework-3/images/toy4.jpg' alt='snap circuits' style={{width: '100%', maxWidth: '400px'}}/>
                 <br/>
                 <Typography>
                   Is that even really a toy at this point?
@@ -105,7 +105,7 @@ class App extends Component {
                 <Typography>Blocks</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails style={{display: 'block', textAlign: 'center'}}>
-                <img src='/images/toy5.jpg' alt='blocks' style={{width: '100%', maxWidth: '400px'}}/>
+                <img src='//cis128.cyberdro.me/homework-3/images/toy5.jpg' alt='blocks' style={{width: '100%', maxWidth: '400px'}}/>
                 <br/>
                 <Typography>
                   Good ol' blocks. Can't go wrong with these!
