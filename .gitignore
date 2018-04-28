@@ -2,12 +2,15 @@
 
 # dependencies
 homework-3-react/node_modules
+homework-4-react/node_modules
 
 # testing
 homework-3-react/coverage
+homework-4-react/coverage
 
 # production
 homework-3-react/build
+homework-4-react/build
 
 # misc
 .DS_Store
