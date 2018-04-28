@@ -1,8 +1,8 @@
 {
-  "name": "homework-3-react",
+  "name": "homework-4-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://cis128.cyberdro.me/homework-3/",
+  "homepage": "https://https://cis128.cyberdro.me/homework-4/",
   "dependencies": {
     "load-google-maps-api": "^1.3.0",
     "react": "^16.3.1",
